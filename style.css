@@ -1,0 +1,136 @@
+@media screen and (max-width: 768px) {
+    .imgn {
+        padding-bottom: 10px;
+        height: 100%;
+        width: 100%;
+    }
+    .header {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    .footer {
+        grid-column: 2 / 3;
+        grid-row: 7 / 8;
+    }
+    .first {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+    .second {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+    .top {
+        grid-column: 2 / 3;
+        grid-row: 4 / 5;
+    }
+    .middle {
+        grid-column: 2 / 3;
+        grid-row: 5 / 6;
+    }
+    .bottom {
+        grid-column: 2 / 3;
+        grid-row: 6 / 7;
+    }
+    .small {
+        display: block;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 768px) {
+    .header {
+        grid-column: 2 / 4;
+        grid-row: 1 / 2;
+    }
+    .footer {
+        grid-column: 2 / 4;
+        grid-row: 8 / 9;
+    }
+    .first {
+        float: left;
+        grid-column: 2 / 3;
+        grid-row: 2 / 5;
+    }
+    .second {
+        float: left;
+        grid-column: 2 / 3;
+        grid-row: 5 / 8;
+    }
+    .top {
+        float: right;
+        grid-column: 3 / 4;
+        grid-row: 2 / 4;
+    }
+    .middle {
+        float: right;
+        grid-column: 3 / 4;
+        grid-row: 4 / 6;
+    }
+    .bottom {
+        float: right;
+        grid-column: 3 / 4;
+        grid-row: 6 / 8;
+    }
+    .imgn {
+        padding-bottom: 10px;
+        height: 20%;
+        width: 20%;
+    }
+}
+body {
+    background-color: gainsboro;
+}
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 15% 50% 20% 15%;
+    padding: 20px;
+}
+.content {
+    background-color: white;
+    padding: 20px;
+}
+.grey {
+    background-color: #575757;
+    width: 100%;
+    color: #ffffff;
+}
+.post-header {
+    color: red;
+    font-size: large;
+}
+.side-header {
+    font-size: large;
+}
+p {
+    font-size: small;
+}
+.desc {
+    font-size: x-small;
+    color: grey;
+    font-style: italic;
+}
+.padding {
+    padding-left: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.padding-2 {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: none;
+    color: aquamarine;
+}
+.red {
+    color: red;
+}
+.round {
+    border-radius: 5px;
+}
